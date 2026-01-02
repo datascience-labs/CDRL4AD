@@ -6,7 +6,8 @@ repo: datascience-labs/CDRL4AD
 permalink: /:path/:basename:output_ext
 ---
 
-<meta name="robots" content="noindex">
+
+eta name="robots" content="noindex">
 
 # Causal Disentanglement Learning for Accurate Anomaly Detection in Multivariate Time Series
 Code implementation for CDRL4AD(Causally Disentangled Representation Learning for Anomaly Detection).  
@@ -43,8 +44,6 @@ To train:
 ~~~
 python train.py --batch_size <batch size> --dataset <dataset> --epochs <epoch> --window_size <sliding window size> --embed_dim <embedding dimension> --topk <the value of top k>
 ~~~
-
-
 
 
 
